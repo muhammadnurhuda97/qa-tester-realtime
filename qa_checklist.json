@@ -1,0 +1,94 @@
+[
+  {
+    "module": "PENDAFTARAN & AUTH (GERBANG UTAMA)",
+    "role": "Semua / Calon Yayasan",
+    "items": [
+      "Daftar Yayasan baru: Subdomain otomatis unik (slug)",
+      "Login Super Admin: Cek session & redirect ke dashboard",
+      "Reset Password: Link masuk ke email/log",
+      "Ganti Password di Profil: Berhasil ganti & logout otomatis"
+    ]
+  },
+  {
+    "module": "AKADEMIK & DATA MASTER",
+    "role": "Super Admin / Admin Unit",
+    "items": [
+      "Tambah Unit: Formal (SMP/SMA) & Non-Formal (Tahfidz/Diniyah)",
+      "Manajemen Tahun Ajaran: Set Aktif (hanya boleh 1 yang aktif)",
+      "Data Kelas: Import/Tambah Santri ke dalam kelas",
+      "Jadwal Pelajaran: Bentrok check (tidak boleh 1 guru di 2 kelas jam sama)",
+      "Mata Pelajaran: Link-kan Mapel ke Unit tertentu"
+    ]
+  },
+  {
+    "module": "SANTRI (INTI SISTEM)",
+    "role": "Admin Unit / Staff",
+    "items": [
+      "Tambah Santri: Generate Barcode otomatis berdasarkan NIS",
+      "Edit Profil Santri: Upload foto & ganti status (Aktif/Lulus/DO)",
+      "Detail Santri: Muncul riwayat Pelanggaran & Perizinan",
+      "Pindah Kelas: Fitur naik kelas/pindah kelas (Promotion)"
+    ]
+  },
+  {
+    "module": "ABSENSI & NILAI (GURU)",
+    "role": "Guru / Kepala Unit",
+    "items": [
+      "Input Absensi: Sakit, Izin, Alpa, Hadir",
+      "Input Nilai: Input per Mapel & Komponen Nilai (Tugas/UTS/UAS)",
+      "Raport: Generate Raport PDF & Publish agar bisa dilihat Wali",
+      "Jurnal Harian: Input kegiatan belajar mengajar harian"
+    ]
+  },
+  {
+    "module": "KEUANGAN SANTRI (SPP & TABUNGAN)",
+    "role": "Bendahara",
+    "items": [
+      "Tagihan SPP: Generate tagihan otomatis tiap bulan",
+      "Pembayaran: Bayar manual atau potong saldo Wallet",
+      "Top-up Wallet: Isi saldo uang saku santri",
+      "Tabungan: Setor & Tarik tabungan santri",
+      "Laporan Keuangan: Rekap pemasukan SPP per hari/bulan"
+    ]
+  },
+  {
+    "module": "KESANTRIAN (DISIPLIN & KESEHATAN)",
+    "role": "Staff Kesantrian / Guru Piket",
+    "items": [
+      "Perizinan: Pengajuan Izin Keluar (Wali) & Approval (Admin)",
+      "Pelanggaran: Input poin pelanggaran & sanksi otomatis",
+      "Kesehatan: Catat riwayat santri berobat/sakit",
+      "Kamar: Assign santri ke Gedung & Kamar tertentu"
+    ]
+  },
+  {
+    "module": "KEPEGAWAIAN (KARYAWAN & GAJI)",
+    "role": "Super Admin / Bendahara",
+    "items": [
+      "Data Karyawan: NIP, Unit Kerja, & Jabatan",
+      "Absensi GPS (Mobile): Check-in di radius lokasi sekolah",
+      "Penggajian: Generate Slip Gaji berdasarkan komponen (Pokok + Tunjangan)",
+      "Rekap Kehadiran: Hitung otomatis total hadir untuk potongan gaji"
+    ]
+  },
+  {
+    "module": "POS & UNIT USAHA (KANTIN/TOKO)",
+    "role": "Petugas Toko",
+    "items": [
+      "Manajemen Produk: Stok, Harga, & Kategori",
+      "Transaksi Kasir: Scan barcode produk & Bayar pakai Saldo Santri",
+      "Stok Menipis: Notifikasi jika stok di bawah limit",
+      "Laporan Penjualan: Omzet harian per unit usaha"
+    ]
+  },
+  {
+    "module": "PENGATURAN & KEAMANAN",
+    "role": "Super Admin",
+    "items": [
+      "Audit Trail: Intip siapa yang hapus/edit data sensitif",
+      "Manajemen Role: Atur hak akses (Siapa boleh buka Menu Apa)",
+      "Pengumuman: Muncul di Dashboard & Notifikasi Mobile",
+      "Backup Data: Download database (.sql) secara berkala"
+    ]
+  }
+]
